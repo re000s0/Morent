@@ -78,7 +78,7 @@ cars(0, 4, "vetrina");
 cars(4, 12, "vetrina2");
 function likes(id) {
   console.log(document.getElementById(id).src);
-  document.getElementById(id).src == `http://localhost:5173/public/heart1.svg` ? document.getElementById(id).src = `/public/heart2.svg` : document.getElementById(id).src = `/public/heart1.svg`;
+  document.getElementById(id).src == `./heart1.svg` ? document.getElementById(id).src = `./heart2.svg` : document.getElementById(id).src = `./heart1.svg`;
 }
 for (let i = 0; i < 12; i++) {
   const hertbutton = document.getElementById(`like${i}`);
