@@ -46,20 +46,20 @@ function cars(x0, x1, y) {
                                 <p class="font-semibold text-2xl">${data$1.data[i].name}</p>
                                 <p class="C90A3BF font-semibold">${data$1.data[i].type}</p>
                                 </div>
-                                <img src="../heart1.svg" id="like${i}" class="mt-[5px] cursor-pointer w-[24px] h-[24px]" alt="">
+                                <img src="./heart1.svg" id="like${i}" class="mt-[5px] cursor-pointer w-[24px] h-[24px]" alt="">
                             </div>
-                            <img src="../${data$1.data[i].img}.svg" class="mt-[64px] w-[242px]! h-[92px]!" alt="">
+                            <img src="./${data$1.data[i].img}.svg" class="mt-[64px] w-[242px]! h-[92px]!" alt="">
                             <div class="mt-[64px] flex gap-[16px]">
                                 <div class="flex gap-[6px]">
-                                <img src="../volume.svg" class="w-[24px] h-[24px]" alt="">
+                                <img src="./volume.svg" class="w-[24px] h-[24px]" alt="">
                                 <p class="C90A3BF text-[15px]">${data$1.data[i].volume}L</p>
                                 </div>
                                 <div class="flex gap-[6px]">
-                                <img src="../manual.svg" class="w-[24px] h-[24px]" alt="">
+                                <img src="./manual.svg" class="w-[24px] h-[24px]" alt="">
                                 <p class="C90A3BF text-[15px]">manual</p>
                                 </div>
                                 <div class="flex gap-[6px]">
-                                <img src="../profile-2user.svg" class="w-[24px] h-[24px]" alt="">
+                                <img src="./profile-2user.svg" class="w-[24px] h-[24px]" alt="">
                                 <p class="C90A3BF text-[15px]">${data$1.data[i].persons} People</p>
                                 </div>
                             </div>
