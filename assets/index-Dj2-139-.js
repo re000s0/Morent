@@ -100,21 +100,21 @@ function mobilcats(x0, x1, y) {
                                     <p class="text-[18px] font-semibold">${data$1.data[i].name}</p>
                                     <p class="C90A3BF font-semibold text-[12px]">${data$1.data[i].type}</p>
                                 </div>
-                                <img src="/public/heart1.svg" id="like${i}" class="mt-[5px] cursor-pointer w-[24px] h-[24px]" alt="">
+                                <img src="./heart1.svg" id="like${i}" class="mt-[5px] cursor-pointer w-[24px] h-[24px]" alt="">
                             </div>
                             <div class="flex justify-between mt-[13px] w-full">
-                                <img src="/public/${data$1.data[i].img}.svg" class="w-[160px] h-[64px]" alt="">
+                                <img src="./${data$1.data[i].img}.svg" class="w-[160px] h-[64px]" alt="">
                                 <div class="flex flex-col justify-center items-start gap-16px">
                                     <div class="flex justify-center items-center gap-[4px]">
-                                        <img src="/public/volume.svg" class="w-[14px] h-[14px]" alt="">
+                                        <img src="./volume.svg" class="w-[14px] h-[14px]" alt="">
                                         <p class="C90A3BF text-[12px]">${data$1.data[i].volume}L</p>
                                     </div>
                                     <div class="flex justify-center items-center gap-[4px]">
-                                        <img src="/public/manual.svg" class="w-[14px] h-[14px]" alt="">
+                                        <img src="./manual.svg" class="w-[14px] h-[14px]" alt="">
                                         <p class="C90A3BF text-[12px]">Manual</p>
                                     </div>
                                     <div class="flex justify-center items-center gap-[4px]">
-                                        <img src="/public/profile-2user.svg" class="w-[14px] h-[14px]" alt="">
+                                        <img src="./profile-2user.svg" class="w-[14px] h-[14px]" alt="">
                                         <p class="C90A3BF text-[12px]">${data$1.data[i].persons} People</p>
                                     </div>
                                 </div>
